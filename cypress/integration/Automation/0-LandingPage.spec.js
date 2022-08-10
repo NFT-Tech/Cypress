@@ -21,6 +21,8 @@ describe("Landing Page", ()=> {
         cy.get("#id_number_of_participant").type("27")
         cy.get("#id_date_training").type("2022-12-12")
         cy.get("#id_course_delivery_method").select("1")
+
+        //comments
      })
 })
      
